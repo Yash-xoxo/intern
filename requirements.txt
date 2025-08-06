@@ -1,1 +1,15 @@
-Flask
+streamlit
+pywhatkit
+twilio
+googlesearch-python
+requests
+beautifulsoup4
+Pillow
+boto3
+pymongo
+google-generativeai
+SpeechRecognition
+pyaudio
+psutil
+streamlit-webrtc
+opencv-python-headless

@@ -1,0 +1,15 @@
+---
+- hosts: local
+  become: no
+  tasks:
+    - name: Print a message
+      debug:
+        msg: "Hello from your Ansible playbook, executed by the DevOps Control Center!"
+
+    - name: Check the date
+      command: date
+      register: date_output
+
+    - name: Display the date
+      debug:
+        var: date_output.stdout

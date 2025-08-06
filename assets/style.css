@@ -1,0 +1,76 @@
+/* --- General Styling --- */
+body {
+    background-color: #0E1117;
+    color: #FAFAFA;
+}
+
+/* --- Sidebar Styling --- */
+.css-1d391kg {
+    background-color: #1a1f2e;
+}
+
+/* --- Main Content Area --- */
+.main .block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/* --- Styling for Buttons --- */
+.stButton>button {
+    border-radius: 8px;
+    border: 2px solid #4B8BBE;
+    color: #FFFFFF;
+    background-color: transparent;
+    transition: all 0.2s ease-in-out;
+    padding: 10px 24px;
+}
+.stButton>button:hover {
+    background-color: #4B8BBE;
+    color: #FFFFFF;
+    border-color: #4B8BBE;
+    box-shadow: 0 0 15px rgba(75, 139, 190, 0.6);
+}
+
+/* --- Styling for Primary (Destructive) Buttons --- */
+.stButton>button[kind="primary"] {
+    border-color: #FF4B4B;
+}
+.stButton>button[kind="primary"]:hover {
+    background-color: #FF4B4B;
+    border-color: #FF4B4B;
+    box-shadow: 0 0 15px rgba(255, 75, 75, 0.6);
+}
+
+/* --- Headers and Titles --- */
+h1 {
+    color: #61dafb; /* A nice techy blue */
+    text-align: center;
+}
+h2 {
+    color: #FAFAFA;
+    border-bottom: 2px solid #4B8BBE;
+    padding-bottom: 5px;
+}
+h3 {
+    color: #e2e2e2;
+}
+
+/* --- Terminal Output Box --- */
+.stCodeBlock {
+    border: 1px solid #30363F;
+    border-radius: 8px;
+    background-color: #010409 !important;
+}
+
+/* --- Info/Success/Warning/Error boxes --- */
+.stAlert {
+    border-radius: 8px;
+}
+
+/* --- Expander styling --- */
+.st-expander {
+    border: 1px solid #30363F;
+    border-radius: 8px;
+}
